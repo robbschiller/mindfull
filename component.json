@@ -1,0 +1,12 @@
+{
+  "name": "Mindful",
+  "version": "0.0.1",
+  "main": "assets/styles.css",
+  "dependencies": {
+    "backbone": "latest",
+    "underscore": "latest",
+    "ratchet": "latest",
+    "modernizr": "latest",
+    "jquery": "latest"
+  }
+}

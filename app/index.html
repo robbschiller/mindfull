@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Mindful - An App for the Forgetfuk</title>
+        <meta name="description" content="Mindful is a simple, modular, open-source mobile web application for helping you keep track of your stuff">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="components/ratchet/dist/ratchet.css">
+        <link rel="stylesheet" href="styles/main.css">
+
+        <!-- Scripts  -->
+        <script src="components/modernizr/modernizr.js"></script>
+        <script src="components/jquery/jquery.min.js"></script>
+        <script src="components/underscore/underscore-min.js"></script>
+        <script src="components/backbone/backbone.js"></script>
+        <script src="components/ratchet/dist/ratchet.js"></script>
+        <script src="scripts/app.js"></script>
+
+        <script type="text/template" id="item-template">
+            <span class="item-title"><%= title %></span>
+            <span class="item-person"><%= person %></span>
+        </script>
+
+    </head>
+    <body>
+        <header class="bar-title">
+            <h1 class="title">Mindful</h1>
+            <a class="button" href="#">Right</a>
+        </header>
+        <div id="container">
+        </div>
+
+
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+</body>
+</html>
