@@ -9,26 +9,7 @@
     font-style: normal;
 }
 
-.bar-title {
-	background-color: #fffbf2;
-	background-image: none;
-	border-bottom: none;
-}
-
-.bar-title .title {
-	color: #545454;
-	text-shadow: none;
-}
-
 .bar-title .button {
-	font-family: 'entypo', sans-serif;
-	background-color: #fffbf2;
-	background-image: none;
-	color: #545454;
-	text-shadow: none;
-	border: 1px solid #545454;
-}
-
-.button {
-	border-radius: 0;
+	font-family: 'entypo' sans-serif;
+	font-size: 44px;
 }
