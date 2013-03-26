@@ -1,0 +1,9 @@
+{
+  "name": "Mindful",
+  "description": "Simple, Modular, Open-Source Mobile Web App for the Forgetful",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "latest",
+    "grunt": "latest"
+  }
+}
