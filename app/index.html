@@ -27,8 +27,7 @@
         <script src="scripts/app.js"></script>
 
         <script type="text/template" id="item-template">
-            <span class="item-title"><%= title %></span>
-            <span class="item-person"><%= person %></span>
+            <li class="item-title"><a href="#"><%= title %><span class="chevron"</span></a></li>
         </script>
 
     </head>
@@ -37,10 +36,7 @@
             <h1 class="title">Mindful</h1>
             <a class="button" href="#">&#10133;</a>
         </header>
-        <div id="content">
-            <span></span>
-        </div>
-
+        <div class="content"></div>
 
         <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];

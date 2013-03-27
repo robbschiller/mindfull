@@ -5,7 +5,11 @@
   window.Item = Backbone.Model.extend({});
 
   window.ItemView = Backbone.View.extend({
+    tagName: 'ul',
+    className: 'list',
+
     initialize: function() {
+      _.bindAll(this, 'render');
       this.template = _.template($('#item-template').html());
     },
 
