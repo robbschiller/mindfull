@@ -4,6 +4,11 @@
 
   window.Item = Backbone.Model.extend({});
 
+  window.Items = Backbone.Collection.extend({
+    model: Item,
+    url: '/items'
+  });
+
   window.ItemView = Backbone.View.extend({
     tagName: 'ul',
     className: 'list',

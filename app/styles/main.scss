@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'entypo';
+    src:url('icons/entypo.eot');
+    src:url('icons/entypo.eot?#iefix') format('embedded-opentype'),
+        url('icons/entypo.woff') format('woff'),
+        url('icons/entypp.ttf') format('truetype'),
+        url('icons/entypo.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bar-title .button {
+	font-family: 'entypo' sans-serif;
+	font-size: 44px;
+}
