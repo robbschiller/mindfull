@@ -7,6 +7,7 @@
     "underscore-amd": "latest",
     "ratchet": "latest",
     "modernizr": "latest",
-    "jquery": "latest"
+    "jquery": "latest",
+    "parse-js-sdk": "~1.2.7"
   }
 }
