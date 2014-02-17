@@ -10,6 +10,6 @@ app.configure(function () {
   app.use(express.static(__dirname + '/app'));
 });
 
-// Let us know everything is working!
+// Let us know everything is working
 app.listen(3000);
-console.log('Server Fired on localhost:3000');
+console.log('Server fired on localhost:3000');
