@@ -1,6 +1,6 @@
 {
-  "name": "Mindful",
-  "description": "Simple, Modular, Open-Source Mobile Web App for the Forgetful",
+  "name": "Mindfull-Backbone",
+  "description": "Mobile Web App for the Forgetful",
   "version": "0.0.1",
   "dependencies": {
     "express": "latest",

@@ -1,8 +1,8 @@
+// Setup the Express Server
 var express = require('express'),
   app = express();
 
-// Config
-// Configuration
+// Config for the app directory
 app.configure(function () {
   app.use(express.bodyParser());
   app.use(express.methodOverride());
@@ -10,5 +10,6 @@ app.configure(function () {
   app.use(express.static(__dirname + '/app'));
 });
 
+// Let us know everything is working!
 app.listen(3000);
-console.log('Listening to your pants');
+console.log('Server Fired on localhost:3000');
