@@ -1,3 +1,2 @@
-## Mindful ##
-
-Mobile web app experiment.
+# Mindful
+> Same app, different builds
